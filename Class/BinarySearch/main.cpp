@@ -71,7 +71,7 @@ int  binSrch(int a[],int n,int val){
         }else{
             low=middle+1;
         }
-    }while(low<high);
+    }while(low<=high);
     return -1;
 }
 
